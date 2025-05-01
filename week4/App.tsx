@@ -1,13 +1,8 @@
-import {View} from 'react-native';
 import React from 'react';
-import PropDrilling from './src/screen/PropDrilling';
+import Navigation from './src/navigation/AppNavigation';
 
 const App = () => {
-  return (
-    <View style={{flex: 1, marginTop: 50}}>
-      <PropDrilling />
-    </View>
-  );
+  return <Navigation />;
 };
 
 export default App;

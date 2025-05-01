@@ -14,3 +14,9 @@
 - **React Navigation**
   - Yığın (stack) ve sekme (tab) navigatörlerini kurma ve yapılandırma.
   - Setting up stack and tab navigators.
+
+## Demo
+
+| Android                                                             | iOS                                                             |
+| ------------------------------------------------------------------- | --------------------------------------------------------------- |
+| <img src="./assets/week4_and.gif" alt="Android Demo" width="200" /> | <img src="./assets/week4_ios.gif" alt="iOS Demo" width="200" /> |
