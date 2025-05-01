@@ -1,4 +1,4 @@
-## Week 2: React Native Core Components ve Styling
+## Week 3: React Native Core Components ve Styling
 
 ### 🔵 Core Components (Temel Bileşenler)
 
