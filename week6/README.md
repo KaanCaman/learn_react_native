@@ -44,3 +44,9 @@ Doğru state yönetimi olmadan, kod karmaşıklaşır ve hatalara açık hale ge
 | Recoil      | Atom-based state<br/>Atom tabanlı state yönetimi                           | Easy React integration<br/>Kolay React entegrasyonu                                   | Ecosystem maturing<br/>Eko-sistem gelişme aşamasında                    |
 | Redux       | Large-scale predictable state<br/>Büyük ölçekli, öngörülebilir state       | Rich middleware & devtools<br/>Gelişmiş middleware ve devtools                        | Lots of boilerplate<br/>Çok fazla boilerplate kod                       |
 | MobX        | Reactive & flexible state<br/>Reaktif ve esnek state yönetimi              | Less boilerplate, automatic reactivity<br/>Daha az boilerplate, otomatik reaktif yapı | Unpredictable if misused<br/>Yanlış kullanıldığında öngörülemez akışlar |
+
+## Demo
+
+| Android                                                              | iOS                                                              |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| <img src="./assets/states_and.gif" alt="Android Demo" width="200" /> | <img src="./assets/states_ios.gif" alt="iOS Demo" width="200" /> |
