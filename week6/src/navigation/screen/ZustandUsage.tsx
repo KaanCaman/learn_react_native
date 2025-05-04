@@ -16,7 +16,7 @@ type Action = {
 // Create Zustand store combining state and actions
 // Store oluştur: state ve action'ları birleştir
 const useCounterStore = create<State & Action>(set => ({
-  counter: 24, // Initial value / Başlangıç değeri
+  counter: 2, // Initial value / Başlangıç değeri
   increase: num => set(() => ({counter: num})), // Update counter to num / Sayaç değerini num olarak ayarla
   decrease: num => set(() => ({counter: num})), // Update counter to num / Sayaç değerini num olarak ayarla
 }));

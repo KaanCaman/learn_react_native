@@ -4,6 +4,7 @@ import ContextUsage from './screen/ContextUsage';
 import {Image, StyleSheet} from 'react-native';
 import ReducerUsage from './screen/ReducerUsage';
 import ZustandUsage from './screen/ZustandUsage';
+import ReduxUsage from './screen/ReduxUsage';
 
 const icons = '../../assets/icon/';
 
@@ -46,6 +47,19 @@ const MyTabs = createBottomTabNavigator({
           />
         ),
         title: 'Zustand',
+      },
+    },
+    ReduxUsage: {
+      screen: ReduxUsage,
+
+      options: {
+        tabBarIcon: () => (
+          <Image
+            style={styles.logo}
+            source={require(`${icons}redux-icon.png`)}
+          />
+        ),
+        title: 'Redux',
       },
     },
   },

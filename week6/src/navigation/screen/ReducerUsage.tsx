@@ -30,7 +30,7 @@ function reducer(state: ReducerState, action: ReducerAction): ReducerState {
 // Component demonstrating useReducer hook / useReducer kullanımını gösteren bileşen
 const ReducerUsage: React.FC = () => {
   // Initialize reducer with state and dispatch / useReducer ile state ve dispatch al
-  const [state, dispatch] = useReducer(reducer, {counter: 0});
+  const [state, dispatch] = useReducer(reducer, {counter: 1});
 
   return (
     <View style={styles.parent}>
