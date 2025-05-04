@@ -1,4 +1,3 @@
-// ReducerUsage.tsx
 import {StyleSheet, View} from 'react-native';
 import React, {useReducer} from 'react';
 import CounterArea from '../../components/CounterArea';

@@ -3,6 +3,7 @@ import {createStaticNavigation} from '@react-navigation/native';
 import ContextUsage from './screen/ContextUsage';
 import {Image, StyleSheet} from 'react-native';
 import ReducerUsage from './screen/ReducerUsage';
+import ZustandUsage from './screen/ZustandUsage';
 
 const icons = '../../assets/icon/';
 
@@ -32,6 +33,19 @@ const MyTabs = createBottomTabNavigator({
           />
         ),
         title: 'Reducer',
+      },
+    },
+    ZustandUsage: {
+      screen: ZustandUsage,
+
+      options: {
+        tabBarIcon: () => (
+          <Image
+            style={styles.logo}
+            source={require(`${icons}zustand-icon.png`)}
+          />
+        ),
+        title: 'Zustand',
       },
     },
   },
