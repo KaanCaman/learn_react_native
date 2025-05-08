@@ -3,7 +3,8 @@
     "challenges": {
       "buttons": {
         "customLocalization": "Custom Localization",
-        "listUserData": "List User Data"
+        "listUserData": "List User Data",
+        "IBANInput": "Check IBAN Value"
       }
     }
   },
@@ -11,6 +12,11 @@
     "text": "Researches, analyzes, learns, and solves problems by writing code.",
     "button": "Change Language",
     "dynamic": "Dynamic {{value}} value."
+  },
+  "IBANInput": {
+    "done": "Done",
+    "invalidIBAN": "Invalid IBAN. 24 digits must be entered.",
+    "missingIBAN": "IBAN is missing. 24 digits must be entered."
   },
   "hello.world": "Hello World"
 }

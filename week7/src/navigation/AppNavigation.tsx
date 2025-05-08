@@ -6,6 +6,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './screens/Home';
 import CustomLocalization from './screens/challenges/CustomLocalization';
 import ListUserData from './screens/challenges/ListUserData';
+import IBANInput from './screens/challenges/IBANInput';
 
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
@@ -26,6 +27,12 @@ const RootStack = createNativeStackNavigator({
       screen: ListUserData,
       options: {
         title: 'ListUserData Challenges',
+      },
+    },
+    IBANInput: {
+      screen: IBANInput,
+      options: {
+        title: 'IBAN Challenges',
       },
     },
   },

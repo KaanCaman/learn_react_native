@@ -3,7 +3,8 @@
     "challenges": {
       "buttons": {
         "customLocalization": "Özel Yerelleştirme",
-        "listUserData": "Kullancı Verisini Listele."
+        "listUserData": "Kullancı Verisini Listele.",
+        "IBANInput": "IBAN Değerini Kontrol Et"
       }
     }
   },
@@ -11,6 +12,11 @@
     "text": "Araştırır, analiz eder, öğrenir ve kod yazarak problemleri çözer.",
     "button": "Dili Değiştir",
     "dynamic": "Dinamik {{value}} deger."
+  },
+  "IBANInput": {
+    "done": "Bitir",
+    "invalidIBAN": "Geçersiz IBAN. 24 rakam girilmeli.",
+    "missingIBAN": "IBAN eksik. 24 rakam girilmeli."
   },
   "hello.world": "Merhaba Dünya"
 }

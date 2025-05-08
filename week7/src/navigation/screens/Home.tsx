@@ -1,5 +1,5 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React, {useEffect} from 'react';
+import React, {useEffect, useMemo} from 'react';
 import {useTranslation} from 'react-i18next';
 import ChallengeButton from '../../components/ChallengeButton';
 import AppContext, {GlobalState} from '../../context/appContext';
@@ -7,7 +7,7 @@ import {useNavigation} from '@react-navigation/native';
 import {LocalizationState} from '../../types/localization';
 
 import {StorageKeys} from '../../types/data';
-import { asyncStorage } from '../../data/storage/asyncStorage';
+import {asyncStorage} from '../../data/storage/asyncStorage';
 
 const HomeView = () => {
   const {t} = useTranslation();
@@ -23,12 +23,27 @@ const HomeView = () => {
         title={t('home.challenges.buttons.listUserData')}
         onPress={() => nav.navigate('ListUserData')}
       />
+      <ChallengeButton
+        title={t('home.challenges.buttons.IBANInput')}
+        onPress={() => nav.navigate('IBANInput')}
+      />
     </View>
   );
 };
 
 const Home = () => {
-  const initState: GlobalState = {};
+  // We wrap initState with useMemo so that its reference is protected
+  // useMemo ile initState'i sarmalıyoruz, böylece referansı korunur
+  const initState: GlobalState = useMemo(
+    () => {
+      return {};
+    },
+    // Empty dependency array - is generated only once
+    // Boş bağımlılık dizisi - sadece bir kez oluşturulur
+    [],
+  );
+
+  //
   const {i18n} = useTranslation();
 
   // get local saved language
