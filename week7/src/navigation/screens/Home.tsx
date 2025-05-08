@@ -31,6 +31,10 @@ const HomeView = () => {
         title={t('home.challenges.buttons.CustomInjectWebView')}
         onPress={() => nav.navigate('CustomInjectWebView')}
       />
+      <ChallengeButton
+        title={t('home.challenges.buttons.KeyboardAvoidingView')}
+        onPress={() => nav.navigate('KeyboardAvoidingView')}
+      />
     </View>
   );
 };

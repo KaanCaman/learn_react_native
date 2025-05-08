@@ -5,7 +5,8 @@
         "customLocalization": "Custom Localization",
         "listUserData": "List User Data",
         "IBANInput": "Check IBAN Value",
-        "CustomInjectWebView": "Web View"
+        "CustomInjectWebView": "Web View",
+        "KeyboardAvoidingView": "Keyboard Avoiding View"
       }
     }
   },

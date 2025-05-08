@@ -9,6 +9,8 @@ import ListUserData from './screens/challenges/ListUserData';
 import IBANInput from './screens/challenges/IBANInput';
 import CustomInjectWebView from './screens/challenges/CustomInject';
 
+import KeyboardAvoidingViewScreen from './screens/challenges/KeyboardAvoidingViewScreen';
+
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
   screens: {
@@ -40,6 +42,12 @@ const RootStack = createNativeStackNavigator({
       screen: CustomInjectWebView,
       options: {
         title: 'Custom Inject WebView Challenges',
+      },
+    },
+    KeyboardAvoidingView: {
+      screen: KeyboardAvoidingViewScreen,
+      options: {
+        title: 'Keyboard Avoiding View Challenges',
       },
     },
   },
