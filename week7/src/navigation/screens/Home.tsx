@@ -27,6 +27,10 @@ const HomeView = () => {
         title={t('home.challenges.buttons.IBANInput')}
         onPress={() => nav.navigate('IBANInput')}
       />
+      <ChallengeButton
+        title={t('home.challenges.buttons.CustomInjectWebView')}
+        onPress={() => nav.navigate('CustomInjectWebView')}
+      />
     </View>
   );
 };

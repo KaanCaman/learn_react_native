@@ -4,7 +4,8 @@
       "buttons": {
         "customLocalization": "Özel Yerelleştirme",
         "listUserData": "Kullancı Verisini Listele.",
-        "IBANInput": "IBAN Değerini Kontrol Et"
+        "IBANInput": "IBAN Değerini Kontrol Et",
+        "CustomInjectWebView": "Web Görünümü"
       }
     }
   },
@@ -17,6 +18,10 @@
     "done": "Bitir",
     "invalidIBAN": "Geçersiz IBAN. 24 rakam girilmeli.",
     "missingIBAN": "IBAN eksik. 24 rakam girilmeli."
+  },
+  "CustomInjectWebView": {
+    "placeholder": "Renk gir (örn: tomato)",
+    "apply": "Onayla"
   },
   "hello.world": "Merhaba Dünya"
 }

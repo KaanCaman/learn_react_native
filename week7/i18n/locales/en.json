@@ -4,7 +4,8 @@
       "buttons": {
         "customLocalization": "Custom Localization",
         "listUserData": "List User Data",
-        "IBANInput": "Check IBAN Value"
+        "IBANInput": "Check IBAN Value",
+        "CustomInjectWebView": "Web View"
       }
     }
   },
@@ -17,6 +18,10 @@
     "done": "Done",
     "invalidIBAN": "Invalid IBAN. 24 digits must be entered.",
     "missingIBAN": "IBAN is missing. 24 digits must be entered."
+  },
+  "CustomInjectWebView": {
+    "placeholder": "Enter a color (e.g. tomato)",
+    "apply": "Apply"
   },
   "hello.world": "Hello World"
 }

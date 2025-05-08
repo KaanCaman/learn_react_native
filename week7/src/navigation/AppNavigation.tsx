@@ -7,6 +7,7 @@ import Home from './screens/Home';
 import CustomLocalization from './screens/challenges/CustomLocalization';
 import ListUserData from './screens/challenges/ListUserData';
 import IBANInput from './screens/challenges/IBANInput';
+import CustomInjectWebView from './screens/challenges/CustomInject';
 
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
@@ -33,6 +34,12 @@ const RootStack = createNativeStackNavigator({
       screen: IBANInput,
       options: {
         title: 'IBAN Challenges',
+      },
+    },
+    CustomInjectWebView: {
+      screen: CustomInjectWebView,
+      options: {
+        title: 'Custom Inject WebView Challenges',
       },
     },
   },
