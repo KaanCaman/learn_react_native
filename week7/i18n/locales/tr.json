@@ -1,0 +1,16 @@
+{
+  "home": {
+    "challenges": {
+      "buttons": {
+        "customLocalization": "Özel Yerelleştirme",
+        "listUserData": "Kullancı Verisini Listele."
+      }
+    }
+  },
+  "customLocalization": {
+    "text": "Araştırır, analiz eder, öğrenir ve kod yazarak problemleri çözer.",
+    "button": "Dili Değiştir",
+    "dynamic": "Dinamik {{value}} deger."
+  },
+  "hello.world": "Merhaba Dünya"
+}

@@ -1,0 +1,16 @@
+{
+  "home": {
+    "challenges": {
+      "buttons": {
+        "customLocalization": "Custom Localization",
+        "listUserData": "List User Data"
+      }
+    }
+  },
+  "customLocalization": {
+    "text": "Researches, analyzes, learns, and solves problems by writing code.",
+    "button": "Change Language",
+    "dynamic": "Dynamic {{value}} value."
+  },
+  "hello.world": "Hello World"
+}
