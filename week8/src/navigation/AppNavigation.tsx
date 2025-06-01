@@ -7,6 +7,7 @@ import Home from './screen/Home';
 import BasicAnimation from './screen/BasicAnimation';
 import TransformObject from './screen/TransformObject';
 import BouncingBallChallenge from './screen/BouncingBallChallenge';
+import ColorfulScaleChallenge from './screen/ColorfulScaleChallenge';
 
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
@@ -20,6 +21,7 @@ const RootStack = createNativeStackNavigator({
     BasicAnimation,
     TransformObject,
     BouncingBallChallenge,
+    ColorfulScaleChallenge,
   },
 });
 
