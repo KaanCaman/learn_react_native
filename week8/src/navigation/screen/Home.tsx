@@ -15,6 +15,10 @@ function Home() {
         title={'Transform Object'}
         onPress={() => nav.navigate('TransformObject')}
       />
+      <AppButton
+        title={'Bouncing Ball'}
+        onPress={() => nav.navigate('BouncingBallChallenge')}
+      />
     </View>
   );
 }
