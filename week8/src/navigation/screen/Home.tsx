@@ -23,6 +23,10 @@ function Home() {
         title={'Colorful Scale'}
         onPress={() => nav.navigate('ColorfulScaleChallenge')}
       />
+      <AppButton
+        title={'Zoom'}
+        onPress={() => nav.navigate('ZoomChallenge')}
+      />
     </View>
   );
 }
