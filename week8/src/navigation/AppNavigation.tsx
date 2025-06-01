@@ -6,6 +6,9 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './screen/Home';
 import BasicAnimation from './screen/BasicAnimation';
 import TransformObject from './screen/TransformObject';
+import BouncingBallChallenge from './screen/BouncingBallChallenge';
+import ColorfulScaleChallenge from './screen/ColorfulScaleChallenge';
+import ZoomChallenge from './screen/ZoomChallenge';
 
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Home',
@@ -18,6 +21,9 @@ const RootStack = createNativeStackNavigator({
     Home,
     BasicAnimation,
     TransformObject,
+    BouncingBallChallenge,
+    ColorfulScaleChallenge,
+    ZoomChallenge,
   },
 });
 
